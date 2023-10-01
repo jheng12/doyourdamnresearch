@@ -1,0 +1,128 @@
+body {
+ color: aqua;
+}
+
+.header{
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    word-spacing: 25px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "bd-geminis", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://use.typekit.net/ibf2grq.css);
+}
+
+@keyframes clickhere {
+    0% {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    25% {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
+    50% {
+        font-family: "bd-geminis", sans-serif;
+        font-size: 30px;
+    }
+    75% {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+    }
+    100% {
+        font-family: 'Times New Roman', serif;
+        font-size: 30px;
+    }
+} 
+
+@keyframes searching {
+    0% { content:"Searching...";}
+    100% { content:"Watching....";}
+}
+
+div.col{
+    border: solid 0.5px black;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+}
+
+div.width100{
+    width: 100%;
+}
+
+div.width80{
+    width: 80%;
+}
+
+div.width75{
+    width: 75%;
+}
+
+div.width66{
+    width: 66.6%;
+}
+
+div.width60{
+    width: 60%;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width40{
+    width: 40%;
+}
+
+div.width33 {
+    width: 33.333%;
+}
+
+div.width30 {
+    width: 30%;
+}
+
+div.width27 {
+    width: 27%;
+}
+
+div.width26 {
+    width: 26%;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width20 {
+    width: 20%;
+}
+
+div.width16{
+    width: 16.66%;
+}
+
+div.width14{
+    width: 14%;
+}
+
+div.width12{
+    width: 12%;
+}
+
+div.width10{
+    width: 10%;
+}
