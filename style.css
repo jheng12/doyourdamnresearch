@@ -1,5 +1,31 @@
 body {
- color: aqua;
+    cursor: url('magquestion_pixel.png'), auto;
+}
+
+div.background {
+    border: solid 3px black;
+    height: 800px;
+    margin: 20px;
+}
+
+hr.line {
+    border: 1.5px solid black ;
+}
+
+div.heading {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+}
+
+div.col{
+    border: 1px solid black;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header{
@@ -14,50 +40,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div.X {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @font-face {
-    font-family: "bd-geminis", sans-serif;
+    font-family: "kepler-std-condensed-subhead", serif;
     font-weight: 400;
     font-style: normal;
-    src: url(https://use.typekit.net/ibf2grq.css);
+    src: url(https://use.typekit.net/asz3voo.css);
 }
 
-@keyframes clickhere {
-    0% {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-    }
-    25% {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 30px;
-    }
-    50% {
-        font-family: "bd-geminis", sans-serif;
-        font-size: 30px;
-    }
-    75% {
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 30px;
-    }
-    100% {
-        font-family: 'Times New Roman', serif;
-        font-size: 30px;
-    }
-} 
-
-@keyframes searching {
-    0% { content:"Searching...";}
-    100% { content:"Watching....";}
+@font-face {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    src: url(https://use.typekit.net/asz3voo.css);
 }
 
-div.col{
-    border: solid 0.5px black;
-}
-
-div.row {
-    display: flex;
-    flex-wrap: wrap;
-    border: solid 1px black;
-}
 
 div.width100{
     width: 100%;
@@ -125,4 +126,34 @@ div.width12{
 
 div.width10{
     width: 10%;
+}
+
+
+
+@keyframes clickhere {
+    0% {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    25% {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
+    50% {
+        font-family: "bd-geminis", sans-serif;
+        font-size: 30px;
+    }
+    75% {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+    }
+    100% {
+        font-family: 'Times New Roman', serif;
+        font-size: 30px;
+    }
+} 
+
+@keyframes searching {
+    0% { content:"Searching...";}
+    100% { content:"Watching....";}
 }
