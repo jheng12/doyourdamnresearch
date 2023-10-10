@@ -2,10 +2,18 @@ body {
     cursor: url('magquestion_pixel.png'), auto;
 }
 
-div.background {
-    border: solid 3px black;
-    height: 800px;
-    margin: 20px;
+div.screen {
+    border: solid 1px black;
+}
+
+div.home {
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 30px;
+    width: 65%;
+    padding: 10px;
+    height: 500px;
+
 }
 
 hr.line {
@@ -13,10 +21,12 @@ hr.line {
 }
 
 div.heading {
-    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-family: "readyactive";
     text-align: center;
-    font-size: 40px;
+    font-size: 180px;
     padding: 5px;
+    line-height: 0.9;
+
 }
 
 div.col{
@@ -40,23 +50,124 @@ div.row {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.X {
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+span.arc {
+    font-family: "arc";
+    font-size: 100px;
+}
+
+span.cirrus {
+    font-family: "cirrus";
+    font-size: 100px;
+}
+
+span.readyactive {
+    font-family: "readyactive";
+}
+
+span.readyactive:hover{
+    font-family: "arc";
+    font-size: 140px;
+}
+
+span.kepler {
+    font-family: "keplercond", serif;
+}
+
+span.neue {
+    font-family: "neuehaas", sans-serif;
+}
+
+span.giddy {
+    font-family: "giddyup-std", sans-serif;
+}
+
+span.rad {
+    font-family: "rad", sans-serif;
+}
+
+
+
+@font-face {
+    font-family: "arc", serif;
+    src: url(ARCDEMO-Regular.ttf);
 }
 
 @font-face {
-    font-family: "kepler-std-condensed-subhead", serif;
+    font-family: "cirrus";
+    font-style: normal;
+    src: url(CirrusCumulus.woff);
+}
+
+@font-face {
+    font-family: "readyactive";
+    font-style: normal;
+    src: url(ReadyActiveTest-Light.woff);
+}
+
+@font-face {
+    font-family: "keplercond", serif;
     font-weight: 400;
     font-style: normal;
     src: url(https://use.typekit.net/asz3voo.css);
 }
 
 @font-face {
-    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-family: "neuehaas", sans-serif;
     font-weight: 600;
     font-style: normal;
     src: url(https://use.typekit.net/asz3voo.css);
+}
+
+@font-face {
+    font-family: "giddyup-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://use.typekit.net/asz3voo.css);
+}
+
+@font-face {
+    font-family: "rad", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url(https://use.typekit.net/asz3voo.css);
+}
+
+
+
+
+
+
+span.fontanimation {
+    animation: fontchange 20s infinite alternate;
+    animation-delay: 2s;
+}
+
+@keyframes fontchange {
+    0% {
+        font-family: "readyactive";
+        font-size: 180px;
+    }
+    25% {
+        font-family: "cirrus";
+        font-size: 170px;
+    }
+    50% {
+        font-family: "arc", serif;
+        font-size: 170px;
+    }
+    75% {
+        font-family: "rad", sans-serif;
+        font-size: 170px;
+    }
+    90% {
+        font-family: "keplercond", serif;
+        font-size: 170px;
+    }
+} 
+
+@keyframes searching {
+    0% { content:"Searching...";}
+    100% { content:"Watching....";}
 }
 
 
@@ -126,34 +237,4 @@ div.width12{
 
 div.width10{
     width: 10%;
-}
-
-
-
-@keyframes clickhere {
-    0% {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-    }
-    25% {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 30px;
-    }
-    50% {
-        font-family: "bd-geminis", sans-serif;
-        font-size: 30px;
-    }
-    75% {
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 30px;
-    }
-    100% {
-        font-family: 'Times New Roman', serif;
-        font-size: 30px;
-    }
-} 
-
-@keyframes searching {
-    0% { content:"Searching...";}
-    100% { content:"Watching....";}
 }
