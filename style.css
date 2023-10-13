@@ -2,31 +2,12 @@ body {
     cursor: url('magquestion_pixel.png'), auto;
 }
 
-div.screen {
-    border: solid 1px black;
-}
-
-div.home {
-    border: solid 1px black;
-    margin: auto;
-    margin-top: 30px;
-    width: 65%;
-    padding: 10px;
-    height: 500px;
-
-}
-
-hr.line {
-    border: 1.5px solid black ;
-}
-
-div.heading {
-    font-family: "readyactive";
-    text-align: center;
-    font-size: 180px;
-    padding: 5px;
-    line-height: 0.9;
-
+.heading {
+    color: black; 
+    font-size: 128px; 
+    font-family: "PP Mondwest"; 
+    font-weight: 400; 
+    word-wrap: break-word
 }
 
 div.col{
@@ -90,6 +71,16 @@ span.rad {
 @font-face {
     font-family: "arc", serif;
     src: url(ARCDEMO-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PP Mondwest";
+    src: url(PPMondwest-Regular.woff);
+}
+
+@font-face {
+    font-family: "neuebit";
+    src: url(PPNeueBit-Bold.woff);
 }
 
 @font-face {
