@@ -12,10 +12,15 @@ body {
 
 .subheading {
     position: absolute; 
-    color: black; 
+    color: black;
     font-size: 40px; 
     font-family: "PP NeueBit"; 
     word-wrap: break-word
+}
+
+.damn {
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: white;
 }
 
 
