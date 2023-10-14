@@ -2,17 +2,6 @@ body {
     cursor: url('magquestion_pixel.png'), auto;
 }
 
-.navbar {
-    position: fixed;
-    z-index: 998;
-    opacity: 90%;
-}
-
-.hamburger {
-    position: fixed;
-    z-index: 999;
-}
-
 
 .heading {
     color: black; 
@@ -32,12 +21,12 @@ body {
 
 .outline1 {
     -webkit-text-stroke: 3px black;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: transparent;
 }
 
 .outline2 {
     -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: transparent;
 }
 
 .outline3 {
