@@ -71,10 +71,13 @@ body {
   font-weight: 600;
   text-decoration: underline;
   transition-duration: .25s;
-  line-height: 200%;
 }
 .menu__item:hover {
   background-color: #CFD8DC;
+}
+
+.purple {
+    color: #7b287c;
 }
 
 
@@ -176,6 +179,7 @@ span.rad {
 
 @font-face {
     font-family: "PP Mondwest";
+    font-style: normal;
     src: url(PPMondwest-Regular.woff);
 }
 
