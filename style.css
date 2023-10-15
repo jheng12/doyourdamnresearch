@@ -29,18 +29,13 @@ body {
   }
   
   .btn-primary {
-    color: #fff;
-    background:;
+   
   }
   
   .btn-primary:hover {
     background: #7b287c;
-    transition: background 0.3s ease-in-out;
   }
   
-  /* ............/navbar/............ *
-  
-  /* desktop mode............/// */
   
   .navbar input[type="checkbox"],
   .navbar .hamburger-lines {
@@ -51,7 +46,6 @@ body {
     position: fixed;
     width: 100%;
     background: transparent;
-    color: #000;
     opacity: 1;
     height: 70px;
     z-index: 12;
@@ -144,7 +138,7 @@ body {
   }
 
   .navbar .menu-items {
-    padding-top: 100px;
+    padding-top: 60px;
     background: white;
     height: 100vh;
     max-width: 350px;
@@ -178,7 +172,9 @@ body {
     transform: rotate(-45deg);
   }
 
-
+  .purple {
+    color: #7b287c;
+}
 
 
 
@@ -256,13 +252,7 @@ body {
   transition-duration: .25s;
   line-height: 200%;
 }
-.menu__item:hover {
-  background-color: #CFD8DC;
-}
 
-.purple {
-    color: #7b287c;
-}
 
 
 
