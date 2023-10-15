@@ -66,12 +66,11 @@ body {
   display: block;
   padding: 12px 24px;
   color: #3453A4;
-  font-family:"PP Neuebit";
-  font-size: 40px;
-  font-weight: 600;
+  font-family:"PP Mondwest";
+  font-size: 30px;
   text-decoration: underline;
   transition-duration: .25s;
-  line-height: 110%;
+  line-height: 200%;
 }
 .menu__item:hover {
   background-color: #CFD8DC;
